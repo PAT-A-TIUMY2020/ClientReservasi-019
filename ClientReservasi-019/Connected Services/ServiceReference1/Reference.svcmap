@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5be9191f-a1d4-4e1c-a8a7-ffbfb116b021" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/ServiceReservasi" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceReservasi.xsd" MetadataType="Schema" ID="ce237c63-9dfa-4fc0-bbb8-40fa6005cdd8" SourceId="1" SourceUrl="http://localhost:8888/ServiceReservasi?xsd=xsd0" />
+    <MetadataFile FileName="ServiceReservasi1.xsd" MetadataType="Schema" ID="2305e16a-3dbd-4e4c-ba0a-973f99cbaccc" SourceId="1" SourceUrl="http://localhost:8888/ServiceReservasi?xsd=xsd1" />
+    <MetadataFile FileName="ServiceReservasi.disco" MetadataType="Disco" ID="eba0e02e-4545-4490-88ae-8c296a6d77b0" SourceId="1" SourceUrl="http://localhost:8888/ServiceReservasi?disco" />
+    <MetadataFile FileName="ServiceReservasi2.xsd" MetadataType="Schema" ID="39f3cb61-2bdf-43e3-b46d-b16b4a2656ad" SourceId="1" SourceUrl="http://localhost:8888/ServiceReservasi?xsd=xsd2" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="09289498-da01-4dd5-bce4-42604a414080" SourceId="1" SourceUrl="http://localhost:8888/ServiceReservasi?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
