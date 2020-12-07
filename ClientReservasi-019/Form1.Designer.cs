@@ -155,7 +155,7 @@
             // 
             // btHapus
             // 
-            this.btHapus.Location = new System.Drawing.Point(446, 144);
+            this.btHapus.Location = new System.Drawing.Point(446, 142);
             this.btHapus.Name = "btHapus";
             this.btHapus.Size = new System.Drawing.Size(75, 23);
             this.btHapus.TabIndex = 12;
